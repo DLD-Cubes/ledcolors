@@ -203,10 +203,20 @@ public:
 	 led->displayColorInt(128,255,0,false);
 	 usleep(1000000);
 	 //display color magenta
-	 fprintf(stdout, "display magenta \n");
+	 fprintf(stdout, "display purple \n");
 	 led->displayColorInt(128,0,255,false);
 	 usleep(1000000);
+	 //display color orange
+     fprintf(stdout, "display orange \n");
+	 led->displayColorInt(237,120,6,false);
+	 usleep(1000000);
+	 //display color orange
+	 fprintf(stdout, "display pink \n");
+	 led->displayColorInt(175,75,148,false);
+	 usleep(1000000);
+
 	 led->turnOfLed(false);
+
 	 }
      //write custom colors
      /*signal(SIGINT, sig_handler);
